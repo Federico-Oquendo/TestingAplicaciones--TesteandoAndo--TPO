@@ -3,8 +3,8 @@
 Nombre del Equipo:
 TesteandoAndo
 
-Integrantes:
-Oquendo Federico Ezequiel
-Nuñez Alejandro
-Gonzalez Mika Federico
-Gonzalez Mika Ramiro
+Integrantes
+"Oquendo Federico Ezequiel"
+"Nuñez Alejandro"
+"Gonzalez Mika Federico"
+"Gonzalez Mika Ramiro"
