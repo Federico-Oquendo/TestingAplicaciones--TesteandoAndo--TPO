@@ -1,10 +1,13 @@
 # TestingAplicaciones--TesteandoAndo--TPO
 
-Nombre del Equipo:
-TesteandoAndo
+Nombre del Equipo: TesteandoAndo
 
 Integrantes
-"Oquendo Federico Ezequiel"
-"Nuñez Alejandro"
-"Gonzalez Mika Federico"
-"Gonzalez Mika Ramiro"
+
+"Oquendo, Federico Ezequiel"
+
+"Nuñez, Alejandro Iván"
+
+"Gonzalez Mika, Federico"
+
+"Gonzalez Mika, Ramiro"
