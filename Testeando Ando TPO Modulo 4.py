@@ -49,44 +49,45 @@ class TestTesteandoando():
     self.driver.find_element(By.NAME, "phone").click()
     self.driver.find_element(By.NAME, "phone").send_keys("2267533089")
     self.driver.find_element(By.CSS_SELECTOR, "p:nth-child(13) > input").click()
+    
     #Assert aparece el mail en el recuadro
-    user_mail=self.driver-find_element(By.NAME, "email").send_keys("alejnunez@uade.edu.ar")
-    assert "alejnunez@uade.edu.ar" in user_mail
-    #Assert aparece la password en el recuadro (digitos ocultos)
-    user_password=self.driver-find_element(By.ID, "password").send_keys("ABC123%&@")
-    assert "ABC123%&@" in user_password
+    email=self.driver-find_element(By.NAME, "email").send_keys("alejnunez@uade.edu.ar")
+    assert "alejnunez@uade.edu.ar" in email
+    
     #Assert aparece el nombre en el recuadro
-    user_first_name=self.driver-find_element(By.NAME, "firstName").send_keys("Alejandro")
-    assert "Alejandro" in user_mail
+    firstname=self.driver-find_element(By.NAME, "firstName").send_keys("Alejandro")
+    assert "Alejandro" in firstname
+    
     #Assert aparece el apellido en el recuadro
-    user_last_name=self.driver-find_element(By.NAME, "lastName").send_keys("Nuñez")
-    assert "Nuñez" in user_last_name
+    lastname=self.driver-find_element(By.NAME, "lastName").send_keys("Nuñez")
+    assert "Nuñez" in last_name
+    
     #Assert aparece la direccion 1 en el recuadro
-    user_address_1=self.driver-find_element(By.NAME, "address1").send_keys("W Washington St.")
-    assert "W Washington St." in user_address_1
+    address1=self.driver-find_element(By.NAME, "address1").send_keys("W Washington St.")
+    assert "W Washington St." in address1
+    
     #Assert aparece la direccion 2 en el recuadro
-    user_address_2=self.driver-find_element(By.NAME, "address2").send_keys("N Orange Ave")
-    assert "N Orange Ave" in user_address_2
+    address2=self.driver-find_element(By.NAME, "address2").send_keys("N Orange Ave")
+    assert "N Orange Ave" in address2
+    
     #Assert aparece el codigo postal en el recuadro
-    user_zip=self.driver-find_element(By.NAME, "zipcode").send_keys("32801")
-    assert "32801" in user_zip
+    zipcode=self.driver-find_element(By.NAME, "zipcode").send_keys("32801")
+    assert "32801" in zipcode
+    
     #Assert aparece la ciudad en el recuadro
-    user_city=self.driver-find_element(By.NAME, "city").send_keys("Orlando")
-    assert "Orlando" in user_city
+    city=self.driver-find_element(By.NAME, "city").send_keys("Orlando")
+    assert "Orlando" in city
+    
     #Assert aparece el estado en el recuadro
-    user_state=self.driver-find_element(By.NAME, "state").send_keys("Florida")
-    assert "Florida" in user_state
+    state=self.driver-find_element(By.NAME, "state").send_keys("Florida")
+    assert "Florida" in state
+    
     #Assert aparece el pais en el recuadro
-    user_countre=self.driver-find_element(By.NAME, "country").send_keys("Estados Unidos")
-    assert "Estados Unidos" in user_countre
+    country=self.driver-find_element(By.NAME, "country").send_keys("Estados Unidos")
+    assert "Estados Unidos" in country
+    
     #Assert aparece el numero de telefono en el recuadro
-    user_phone=self.driver-find_element(By.NAME, "phone").send_keys("2267533089")
-    assert "2267533089" in user_phone
-    #Assert nombre de usuario aparece en la pagina
-    user_name=self.driver-find_element(By.CSS_SELECTOR, "p:nth-child(3) > input").cl
-    assert "Alejandro" in user_name
-    #Assert informa de registro existoso
-    message_1=self.driver-find_element(By.CSS_SELECTOR, "p:nth-child(3) > input").cl
-    assert "Registered Successfully" in message_1
+    phone=self.driver-find_element(By.NAME, "phone").send_keys("2267533089")
+    assert "2267533089" in phone
     self.driver.close()
   
