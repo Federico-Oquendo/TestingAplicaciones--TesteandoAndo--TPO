@@ -1,6 +1,6 @@
 #
 #
-# ESTAMOS PROBANDO EL CASO DE PRUEBA PE 16
+#                CASO DE PRUEBA PE 16
 #
 #
 
