@@ -1,6 +1,8 @@
 #
 #
 #                CASO DE PRUEBA PE 16
+#       Automatizamos la creacion de cuenta y probramos que aparezca el saludo del nombre 
+#       con el mismo que cargo el usuario
 #
 #
 
